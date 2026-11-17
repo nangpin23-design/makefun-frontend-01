@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lantern — a fast make.fun board</title>
+<meta name="description" content="Lantern is a small, fast frontend for make.fun: the bounty board, bounty pages, leaderboards and public profiles, read live from make.fun's public API.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">Lantern</a>
+  <nav aria-label="Sections">
+    <a href="#/">Board</a>
+    <a href="#/bounty/makefun-frontend-01">This bounty</a>
+    <a href="#/profile/nangkos">@nangkos</a>
+  </nav>
+  <p class="tag">A fast make.fun board — live data, nothing else.</p>
+</header>
+<main id="view" aria-live="polite"></main>
+<footer class="foot">
+  <p>Data comes from make.fun's public API, read-only, and is cached with ETags. Lantern is not make.fun.</p>
+</footer>
+</body>
+</html>
